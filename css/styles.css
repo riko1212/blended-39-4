@@ -119,38 +119,34 @@ body {
 }
 
 /* mobile */
-.mobile{
+.mobile {
   padding-top: 110px;
   padding-bottom: 105px;
 }
 
-.section-title{
-font-weight: 700;
-font-size: 36px;
-line-height: 1.47;
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47;
 }
 
-.mobile-title{
-  color:var(--secondary-title-color) ;
+.mobile-title {
+  color: var(--secondary-title-color);
   text-align: center;
   max-width: 739px;
   margin: 0 auto 50px;
 }
 
-
-.typical-text{
-font-size: 16px;
-line-height: 1.56;
-color: var(--main-text-color);
-
+.typical-text {
+  font-size: 16px;
+  line-height: 1.56;
+  color: var(--main-text-color);
 }
 
-
-.mobile-text{
+.mobile-text {
   width: 730px;
   margin: 0 auto 70px;
   text-align: center;
-
 }
 
 .mobile-list {
@@ -160,25 +156,63 @@ color: var(--main-text-color);
 }
 
 .mobile-item-title {
-font-weight: 600;
-font-size: 18px;
-line-height: 1.22;
-color: #000000;
-margin-bottom: 12px;
-
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #000000;
+  margin-bottom: 12px;
 }
 
 .mobile-item-text {
-font-size: 14px;
-line-height: 22px;
+  font-size: 14px;
+  line-height: 22px;
 }
 
 .mobile-item {
-  flex-basis: calc((100% - 27px * 3) / 3 );
+  flex-basis: calc((100% - 27px * 3) / 3);
   margin-left: 27px;
 }
 
 .mobile-buttom {
-  margin:  0 auto;
+  margin: 0 auto;
   border: none;
+}
+/*advantages styles*/
+.advantages {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  background-color: var(--background-color);
+}
+.advantages-title {
+  margin-bottom: 40px;
+  color: var(--secondary-title-color);
+}
+.advantages-content {
+  max-width: 489px;
+}
+.advantages-text {
+  margin-bottom: 30px;
+}
+.advantages-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--accent-color);
+}
+.advantages-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 90px;
+  margin-bottom: 70px;
+}
+.advantages-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.advantages-digit {
+  font-size: 36px;
+  line-height: 1.47;
+  color: #000000;
 }
