@@ -43,6 +43,7 @@ body {
 
 .header {
   background-color: grey;
+  border-bottom: 1px solid rgba(161, 161, 161, 0.5);
 }
 
 .menu-link {
@@ -67,4 +68,52 @@ body {
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent-color);
+}
+
+/* HERO */
+.hero {
+  background-color: grey;
+  padding-top: 220px;
+  padding-bottom: 335px;
+}
+
+.hero-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--secondary-text-color);
+  margin-bottom: 20px;
+}
+
+.hero-title {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 1.33;
+  text-align: center;
+  color: var(--main-title-color);
+  max-width: 829px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.btn {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--secondary-text-color);
+  width: 200px;
+  height: 45px;
+  background: var(--accent-color);
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-button {
+  margin: 0 auto;
 }
